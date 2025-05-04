@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+.perfilDosEntrevistados{
+    display: flex;
+    justify-content: space-between;
+    padding: 250px;
+    margin-top: -15vh;
+}
+
+button{
+    cursor: pointer;
+    margin-top: 2vh;
+    border: solid 2px white;
+    padding: 13px 13px 13px 13px;
+    border-radius: 2vh;
+    background: #593493;
+    color: white;
+    font-size: 1rem;
+    margin-left: 1.5vh;
+}
+
+.NomeEntrevistado{
+    text-align: center;
+    font-size: 2rem;
+}
+
+img{
+    max-width: 200px;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate( 1%, -10%);
+}
